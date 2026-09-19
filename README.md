@@ -6,7 +6,9 @@
 * Achieved precise plate-grabbing action by implementing visual servoing algorithms, enabling the robot to autonomously align its chassis with the target using real-time YOLOv8 feedback .--->
 ---
 ## Project Demo
-> **Watch the full video demonstration on YouTube:**
+> **Watch the final demonstration video on YouTube:**
+[](https://youtu.be/sNF4TxTJK3E?si=260LyLSgvvScFvyE)
+> **Watch the first demonstration video on YouTube:**
 [![Watch the first demo video](https://img.youtube.com/vi/ru0SwnUDgf8/0.jpg)](https://youtu.be/ru0SwnUDgf8)
 ---
 ## Project Overview
