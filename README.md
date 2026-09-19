@@ -14,7 +14,7 @@
 ---
 ## Project Overview  
 
-![Project Overview](./figures/Project Overview.png)  
+![Project Overview](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Project%20Overview.png)  
 
 This project presents the design, fabrication, and implementation of an **Automated Plate Delivery Machine**. The system integrates computer vision, robotic manipulation, and mobile mobility to achieve autonomous service tasks.  
 Originally developed on a Raspberry Pi 4, the computing core has been successfully migrated to the **NVIDIA Jetson Orin Nano** to overcome the latency bottlenecks and enable real-time processing for the object detection and kinematic control.  
