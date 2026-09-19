@@ -7,7 +7,7 @@
 ---
 ## Project Demo
 > **Watch the final demonstration video on YouTube:**
-[](https://youtu.be/sNF4TxTJK3E?si=260LyLSgvvScFvyE)
+[](https://youtu.be/sNF4TxTJK3E?si=260LyLSgvvScFvyE)  
 > **Watch the first demonstration video on YouTube:**
 [![Watch the first demo video](https://img.youtube.com/vi/ru0SwnUDgf8/0.jpg)](https://youtu.be/ru0SwnUDgf8)
 ---
