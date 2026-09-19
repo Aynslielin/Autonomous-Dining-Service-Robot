@@ -26,6 +26,7 @@ Originally developed on a Raspberry Pi 4, the computing core has been successful
 * **Researcher**: Hsin-Wei Lin
 ---
 ## System Architecture
+![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/System%20Overview.png)
 ### 1. Hardware Specifications
 | Component | Specification | Function |
 | :--- | :--- | :--- |
