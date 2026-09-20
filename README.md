@@ -1,4 +1,15 @@
 # Automated-Plate-Delivery-Machine
+## Project Overview  
+![Project Overview](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Project%20Overview.png)  
+This project presents the design, fabrication, and implementation of an **Automated Plate Delivery Machine**. The system integrates computer vision, robotic manipulation, and mobile mobility to achieve autonomous service tasks.  
+Originally developed on a Raspberry Pi 4, the computing core has been successfully migrated to the **NVIDIA Jetson Orin Nano** to overcome the latency bottlenecks and enable real-time processing for the object detection and kinematic control.  
+### Funding & Recognition
+* **Program:** Undergraduate Research Project
+* **Grant:** Funded by the **National Science and Technology Council (NSTC)**.  
+* **Institution**: Department of Electrical Engineering, National Taiwan Ocean University
+* **Advisor**: Prof. Chih-Yung Cheng
+* **Researcher**: Hsin-Wei Lin
+---
 <!---**Current Status:** Focusing on integrating plate serving mobility.
 **Future Roadmap / Challenges:** Planned implementation of LiDAR for dynamic obstacle avoidance and SLAM algorithm.
 * Validated mechanical design and YOLOv8 model performance.
@@ -12,17 +23,7 @@
 > **Watch the first demonstration video on YouTube:**  
 [![](https://img.youtube.com/vi/ru0SwnUDgf8/0.jpg)](https://youtu.be/ru0SwnUDgf8)
 ---
-## Project Overview  
-![Project Overview](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Project%20Overview.png)  
-This project presents the design, fabrication, and implementation of an **Automated Plate Delivery Machine**. The system integrates computer vision, robotic manipulation, and mobile mobility to achieve autonomous service tasks.  
-Originally developed on a Raspberry Pi 4, the computing core has been successfully migrated to the **NVIDIA Jetson Orin Nano** to overcome the latency bottlenecks and enable real-time processing for the object detection and kinematic control.  
-### Funding & Recognition
-* **Program:** Undergraduate Research Project
-* **Grant:** Funded by the **National Science and Technology Council (NSTC)**.  
-* **Institution**: Department of Electrical Engineering, National Taiwan Ocean University
-* **Advisor**: Prof. Chih-Yung Cheng
-* **Researcher**: Hsin-Wei Lin
----
+
 ## System Architecture
 ![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/System%20Overview.png)
 ### 1. Hardware Specifications
