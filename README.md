@@ -52,3 +52,4 @@ In this project, I initially utilized existing plate dataset for YOLOv8 model tr
 ### 3. ArUco Marker Delivery
 ---
 ## Challenges
+![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Challenges%26Solutions.png)
