@@ -15,7 +15,7 @@ Originally developed on a Raspberry Pi 4, the computing core has been successful
 * Validated mechanical design and YOLOv8 model performance.
 * Transitioned the computing core from **Raspberry Pi 4** to **NVIDIA Jetson Orin Nano** to address computational bottlenecks encountered during YOLOv8-based object detection.
 * Achieved precise plate-grabbing action by implementing visual servoing algorithms, enabling the robot to autonomously align its chassis with the target using real-time YOLOv8 feedback .--->
----
+
 ## Project Demo
 > **Watch the final demonstration video on YouTube:**  
 [![](https://img.youtube.com/vi/sNF4TxTJK3E/0.jpg)](https://youtu.be/sNF4TxTJK3E?si=VH2IiI8ZEKtDzknI)
