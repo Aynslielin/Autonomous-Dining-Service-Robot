@@ -41,8 +41,11 @@ Originally developed on a Raspberry Pi 4, the computing core has been successful
 * **OS:** Ubuntu 22.04  (JetPack 5.x)
 ---
 ## Engineering Techniques
-### 1. Perception
-### 2. Control
+### 1. Ｍechanical Design & Control
+To pickup the plate, I initially designed the lift-based gripper and arm by SolidWorks. However, the arm-extension design shifted the robot's center of mass and caused chassis instability, which decreased the accuracy of plate-pickup.  
+
+Under this circumstance, the gripper is stationary. The robot could not rely on the extension arm to pickup the plate in the distant environment. Hence, I figured another method - Controlling the wheel motion to adjust the gripping distance. 
+### 2. Perception
 ### 3. ArUco Marker Delivery
 ---
 ## Challenges
