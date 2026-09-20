@@ -38,7 +38,6 @@ Originally developed on a Raspberry Pi 4, the computing core has been successful
 * **Language:** Python 3.9+, C++
 * **Computer Vision:** OpenCV, Ultralytics YOLOv8  
 * **Communication:** UART(Jetson ↔ Arduino) / I2C Protocols
-* **OS:** Ubuntu 22.04  (JetPack 5.x)
 ---
 ## Engineering Techniques
 ### 1. Ｍechanical Design & Control
@@ -47,6 +46,7 @@ To pickup the plate, I initially designed the lift-based gripper and arm by Soli
 As the robot could not rely on the extension arm to pickup the plate in the distant environment, I figured out another method - Controlling the wheel motion to adjust the gripping distance between the plate and the robot. To achieve this method, I used plate position in the camera view as feedback for P-Control, adjusting Mecanum wheel motion during the final approach for more reliable plate positioning.  
 ![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/P_Control.png)
 ### 2. Perception
+In this project, I initially utilized existing plate dataset for YOLOv8 model training. However, this model performed poorly on plate recognition as the camera is fixed in angle. Hence, I collected and annotated a custom plate dataset for identifying empty plate and food-filled plate. With new custom dataset, I retrained a new YOLOv8 model and received well-recognized performance.
 ### 3. ArUco Marker Delivery
 ---
 ## Challenges
