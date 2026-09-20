@@ -43,7 +43,7 @@ Originally developed on a Raspberry Pi 4, the computing core has been successful
 ## Engineering Techniques
 ### 1. Ｍechanical Design & Control
 To pickup the plate, I initially designed the lift-based gripper and arm by SolidWorks. However, the arm-extension design shifted the robot's center of mass and caused chassis instability, which decreased the accuracy of plate-pickup. To solve this problem, I removed arm design and fixed the gripper on the front chassis of the robot to lighten the load. Under this circumstance, the gripper is stationary. 
-
+![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/gripper_design.png)
 As the robot could not rely on the extension arm to pickup the plate in the distant environment, I figured out another method - Controlling the wheel motion to adjust the gripping distance between the plate and the robot. 
 ### 2. Perception
 ### 3. ArUco Marker Delivery
