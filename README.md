@@ -51,6 +51,7 @@ In this project, I initially utilized existing plate dataset for YOLOv8 model tr
 ![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/YOLOv8_train%26test_result.png)  
 First, the upper left figure is a decreasing Loss Curve, which represents that the model had be trained and learned to recognize plate state during 300 epochs of training.The lower left figure represents that model achieves an exceptional performance, with the \(mAP_{50}(B)\) approaching 1.0 after 300 epochs of training. The upper right figure is Normalize Confusion Matrix, which presents the trained model's identification ability. As the empty plate to empty plate and food-filled plate to food-filled plate sectors of the figure present in 1.0, the trained YOLOv8 model can clearly recognize the empty plates and food-filled plates. The lower right figure represents the testing performance of the new YOLOv8 model, which successfully indentifies the empty plate and the food-filled plate.
 ### 3. ArUco Marker Delivery
+
 ---
 ## Challenges
 ![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Challenges%26Solutions.png)
