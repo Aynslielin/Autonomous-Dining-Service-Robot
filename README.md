@@ -1,7 +1,7 @@
 # Automated-Plate-Delivery-Machine
 ## Project Overview  
 ![Project Overview](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Project%20Overview.png)  
-This project presents the design, fabrication, and implementation of an **Automated Plate Delivery Machine**. The system integrates computer vision, robotic manipulation, and mobile mobility to achieve autonomous service tasks.  
+This research presents the design, fabrication, and implementation of an **Automated Plate Delivery Machine**. The system integrates computer vision, robotic manipulation, and mobile mobility to achieve autonomous service tasks.  
 Originally developed on a Raspberry Pi 4, the computing core has been successfully migrated to the **NVIDIA Jetson Orin Nano** to overcome the latency bottlenecks and enable real-time processing for the object detection and kinematic control.  
 ### Funding & Recognition
 * **Program:** Undergraduate Research Project
@@ -49,7 +49,7 @@ As the robot could not rely on the extension arm to pickup the plate in the dist
 ### 2. Perception
 In this project, I initially utilized existing plate dataset for YOLOv8 model training. However, this model performed poorly on plate recognition as the camera is fixed in angle. Hence, I collected and annotated a custom plate dataset for identifying empty plate and food-filled plate. With new custom dataset, I retrained a new YOLOv8 model and received well-recognized performance. See trained results and testing performance below. 
 ![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/yolov8_train%26test.png)  
-The lower left figure represents the testing performance of the new YOLOv8 model, which successfully indentifies the empty plate and the food-filled plate.  
+The lower right figure represents the testing performance of the new YOLOv8 model, which successfully indentifies the empty plate and the food-filled plate. 
 ### 3. ArUco Marker Delivery
 ---
 ## Challenges
