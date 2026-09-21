@@ -49,7 +49,7 @@ As the robot could not rely on the extension arm to pickup the plate in the dist
 ### 2. Perception
 In this project, I initially utilized existing plate dataset for YOLOv8 model training. However, this model performed poorly on plate recognition as the camera is fixed in angle. Hence, I collected and annotated a custom plate dataset for identifying empty plate and food-filled plate. With new custom dataset, I retrained a new YOLOv8 model and received well-recognized performance. See trained results and testing performance below. 
 ![](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/YOLOv8_train%26test_result.png)  
-The lower right figure represents the testing performance of the new YOLOv8 model, which successfully indentifies the empty plate and the food-filled plate. 
+First, the upper left figure is a decreasing Loss Curve, which represents that the model had be trained and learned to recognize plate state.The lower left figure represents that model achieves an exceptional performance, with the \(mAP_{50}(B)\) approaching 1.0 after around 300 epochs of training. The lower right figure represents the testing performance of the new YOLOv8 model, which successfully indentifies the empty plate and the food-filled plate.
 ### 3. ArUco Marker Delivery
 ---
 ## Challenges
