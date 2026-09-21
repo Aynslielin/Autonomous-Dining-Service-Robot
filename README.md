@@ -1,4 +1,6 @@
 # Automated-Plate-Delivery-Machine
+## Project Goal
+This project aims to develop a small-scale autonomous dining service robot that detects, classifies empty and food-filled plates, picks up plates, and delivers them to designated tables in a simulated restaurant environment.
 ## Project Overview  
 ![Project Overview](https://github.com/Aynslielin/Autonomous-Dining-Service-Robot/blob/main/figures/Project%20Overview.png)  
 This research presents the design, fabrication, and implementation of an **Automated Plate Delivery Machine**. The system integrates computer vision, robotic manipulation, and mobile mobility to achieve autonomous service tasks.  
